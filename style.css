@@ -27,6 +27,7 @@
     color: white;
     float: left;
     width: 30%;
+    margin-bottom: 20px;
 }
 
 .col.centrale{
@@ -35,4 +36,8 @@
 
 .card{
     float: right;
+}
+
+.col img{
+    height: 150px;
 }
