@@ -17,9 +17,13 @@
     margin-top: 50px;
 }
 
+.row{
+    margin-top: 40px;
+}
+
 .paragrafo{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .col{
@@ -35,9 +39,22 @@
 }
 
 .card{
-    float: right;
+    float: left;
+    padding: 20px;
+    font-size: 20px;
 }
 
 .col img{
-    height: 150px;
+    height: 120px;
+    float: left;
+} 
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.email{
+    color: rgb(22, 169, 244);
 }
