@@ -29,6 +29,10 @@
     width: 30%;
 }
 
+.col.centrale{
+    margin: 0 5%;
+}
+
 .card{
     float: right;
 }
